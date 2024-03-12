@@ -1,0 +1,16 @@
+.copyrights
+{
+    width:100%;
+    text-align: center;
+    background: rgb(255,105,180);
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    margin-top: 3px;
+    padding: 25px 5px;
+}
+@media screen and (max-width:900px) and (min-width:801px)
+{
+    .copyrights{
+        width: 99%;
+    }
+}

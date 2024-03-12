@@ -1,0 +1,140 @@
+.channelheader{
+    margin-top: 4%;
+    text-align: center;
+    font-size: 17px;
+    margin: auto;
+    width: max-content;
+}
+.channelheader h1{
+    border-bottom: 4px solid #FF69B4;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(49, 49, 69);
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 3%;
+    width: 130%;
+}
+.templateimage{
+    width: 80%;
+    height: 80%;
+    align-items: center;
+}
+.channel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.channel1{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(49, 49, 69);
+}
+.channel11 h1{
+    font-size: 28px;
+}
+.channel11 p{
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 300;
+}
+.channel11{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 65%;
+    border-left: 7px solid #FF69B4 ;
+    padding:0% 3%;
+}
+.channel13 h1{
+    font-size: 28px;
+}
+.channel13 p{
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 300;
+}
+.channel13{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 65%;
+    border-left: 7px solid #EBAD3F ;
+    padding:0% 3%;
+}
+.channel12 h1{
+    font-size: 28px;
+}
+.channel12 p{
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 300;
+}
+.channel12{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 65%;
+    border-left: 7px solid #4FA9DF ;
+    padding:0% 3%;
+}
+.chicon{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.icon12{
+    font-size: 33px;
+}
+.icon121{
+    font-size: 28px;
+}
+.chane{
+    border-bottom: 4px solid #FF69B4;
+    padding-bottom: 6%;
+}
+@media screen and (max-width:430px){
+    .channel{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:800px) and  (min-width:431px){
+    .channel{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:900px) and (min-width:801px)
+{
+    .channel{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .templateimage{
+        width: 50%;
+        height: 50%;
+    }
+    .img{
+        width: 100%;
+    }
+}
