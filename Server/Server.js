@@ -30,8 +30,8 @@ app.post('/send-email', (req, res) => {
     // Define mail options
     const mailOptions = {
       from: `${email}`,
-      to: 'karthickrajans.21cse@kongu.edu', // Change this to the recipient's email address
-      subject: 'Message from TAS Innovation website',
+      to: 'jassmediadatatransfer@gmail.com', // Change this to the recipient's email address
+      subject: 'Message from Jass Media website',
       html: `
         <p>Name: ${name}</p>
         <p>Email: ${email}</p>
